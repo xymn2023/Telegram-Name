@@ -1,4 +1,4 @@
-# Telegram-Name
+# Telegram-Name-Updating
 
 Update (first/last/user) name of Telegram user every 30 seconds. 
 
@@ -12,7 +12,10 @@ Update (first/last/user) name of Telegram user every 30 seconds.
 
 ## 1. 下载
 
-<code>git clone https://github.com/xymn2023/Telegram-Name.git</code>\
+```
+git clone https://github.com/xymn2023/Telegram-Name.git
+```
+
 <code>cd Telegram-Name</code>
 
 ## 2. 安装
