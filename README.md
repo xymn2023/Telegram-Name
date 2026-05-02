@@ -1,1 +1,28 @@
-# Telegram-Name
+# Telegram-Name-Updating
+
+Update (first/last/user) name of Telegram user every 30 seconds. 
+
+参考文档：<a href="https://telethon.readthedocs.io/en/stable/">Telethon</a>
+
+## 0. 准备
+
+运行环境：VPS，python3，python3-pip
+
+创建应用：<a href="https://my.telegram.org/">https://my.telegram.org/</a>。只要填App title和Short name即可。获得api_id和api_hash。
+
+## 1. 下载
+
+<code>git clone https://github.com/xymn2023/Telegram-Name.git</code>\
+<code>cd Telegram-Name</code>
+
+## 2. 安装
+
+<code>pip3 install -r requirements.txt</code>
+
+## 3. 运行
+
+<code>python3 tg.py</code>
+
+## 4. api认证和用户登陆
+
+根据提示输入api_id和api_hash。接着输入手机号和验证码，如果账号开启了二次验，证根据提示再输入二次验证的密码。最后看到 It works! 表明成功了。 默认的是每30秒钟按照一定概率更新一次lastname到特定模式。
