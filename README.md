@@ -1,4 +1,4 @@
-# Telegram-Name-Updating
+# Telegram-Name
 
 Update (first/last/user) name of Telegram user every 30 seconds. 
 
